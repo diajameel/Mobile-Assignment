@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#C3C3C3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Please enter your information"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#B7B7BA"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/foodNameTV"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Name:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/foodNameEDT"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#FDF6F6"
+                android:backgroundTint="#FDF6F6"
+                android:ems="10"
+                android:hint="  Name"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#B7B7BA"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Company:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/foodCompanyEDT"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#FDF6F6"
+                android:backgroundTint="#FDF6F6"
+                android:ems="10"
+                android:hint="  Company"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#B7B7BA"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Calories/100g:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/foodCalEDT"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#FDF6F6"
+                android:backgroundTint="#FDF6F6"
+                android:ems="10"
+                android:hint="  Calories"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#B7B7BA"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Carbs/100g:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/foodCarbsEDT"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#FDF6F6"
+                android:backgroundTint="#FDF6F6"
+                android:ems="10"
+                android:hint="  Carbs"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#B7B7BA"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Protine/100g:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/foodProteinEDT"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#FDF6F6"
+                android:backgroundTint="#FDF6F6"
+                android:ems="10"
+                android:hint="  Protine"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#B7B7BA"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Fat/100g:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/foodFatEDT"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#FDF6F6"
+                android:backgroundTint="#FDF6F6"
+                android:ems="10"
+                android:hint="  Fat"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#B7B7BA"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="weight:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/foodWeightEDT"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#FDF6F6"
+                android:backgroundTint="#FDF6F6"
+                android:ems="10"
+                android:hint="  Weight"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/foodAddBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

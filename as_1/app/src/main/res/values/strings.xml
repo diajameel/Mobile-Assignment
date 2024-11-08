@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">as_1</string>
+    <string-array name="goals">
+        <item>Build muscles</item>
+        <item>Lose weight</item>
+        <item>Maintain weight</item>
+    </string-array>
+    <string-array name="nutrition">
+        <item>Low fat</item>
+        <item>Low carbs</item>
+        <item>High protein</item>
+    </string-array>
+    <string-array name="activity">
+        <item>Little or no exercise</item>
+        <item>Light exercise</item>
+        <item>Moderate exercise</item>
+        <item>Heavy exercise</item>
+        <item>Intense exercise</item>
+    </string-array>
+</resources>
